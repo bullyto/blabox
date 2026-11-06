@@ -1,0 +1,21 @@
+body.editor-map-common #hud,body.editor-map-common #selection{display:none!important}
+body.editor-map-common .war-controls321{display:flex!important;position:absolute!important;top:12px;left:16px;right:64px;justify-content:space-between;pointer-events:none;z-index:30}
+body.editor-map-common .war-controls321 button{pointer-events:auto}
+body.editor-map-common .war-pools321,body.editor-map-common .war-links321{display:flex;gap:8px}
+body.editor-map-common .war-controls321 img{width:23px;height:23px;object-fit:contain}
+body.editor-map-common .war-controls321 button{display:flex;gap:5px;align-items:center;padding:7px 12px;font-size:15px}
+body.editor-map-common #quick-performance023,body.editor-map-common .quick-performance023{display:none!important}
+body.editor-map-common #full-map-layer>.map-close{left:auto!important;right:14px!important;top:12px!important;z-index:51!important}
+body.editor-map-common #full-map-layer>.war-controls321{inset:12px 90px auto 16px!important;display:flex!important;flex-direction:row!important;align-items:flex-start!important;justify-content:space-between!important;height:auto!important;width:auto!important;padding:0!important}
+body.editor-map-common #full-map-layer>.war-controls321>.war-pools321,body.editor-map-common #full-map-layer>.war-controls321>.war-links321{position:static!important;inset:auto!important;display:flex!important;flex-direction:row!important;align-self:flex-start!important;gap:8px!important}
+body.editor-map-common.layout112 #full-map-layer>.war-controls321{inset:0!important;display:block!important;padding:0!important;pointer-events:none!important}
+body.editor-map-common.layout112 #full-map-layer>.war-controls321>.war-pools321{position:absolute!important;top:16px!important;left:20px!important;bottom:auto!important;right:auto!important;gap:10px!important}
+body.editor-map-common.layout112 #full-map-layer>.war-controls321>.war-links321{position:absolute!important;bottom:20px!important;left:20px!important;top:auto!important;right:auto!important;gap:12px!important}
+body.editor-map-common.layout112 #full-map-layer .war-controls321 button{font-size:22px!important;line-height:1.1!important;min-height:52px!important;height:52px!important;min-width:105px!important;padding:5px 12px!important;box-sizing:border-box!important}
+body.editor-map-common.layout112 #full-map-layer .war-controls321 button b{font-size:22px!important;line-height:1.1!important}
+body.editor-map-common.layout112 #full-map-layer .war-controls321 button img{width:30px!important;height:30px!important}
+body.editor-map-common.layout112 #full-map-layer>.map-close{width:56px!important;height:56px!important;left:auto!important;right:20px!important;top:16px!important;font-size:30px!important}
+body.editor-map-common.layout112 #full-map-layer>.full-map-footer{bottom:20px!important;pointer-events:none!important}
+body.editor-map-common.layout112 #full-map-layer>.full-map-footer button{min-height:52px!important;font-size:22px!important;line-height:1.1!important;padding:7px 16px!important;pointer-events:auto!important}
+body.editor-map-common.layout112 .war-attempts321{display:flex!important;align-items:center!important;justify-content:center!important;gap:10px!important;min-height:52px!important;box-sizing:border-box!important;border:2px solid #c1a56a!important;border-radius:9px!important;padding:5px 16px!important;background:#123d4ded!important;color:#fff1c2!important;font-size:22px!important}
+body.editor-map-common.layout112 .war-attempts321 b,body.editor-map-common.layout112 .war-attempts321 span{font-size:22px!important;line-height:1.1!important}

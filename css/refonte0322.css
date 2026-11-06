@@ -1,0 +1,130 @@
+/* 0.32.2 — interfaces nouvelles, dispositions 1.1 conservées. */
+body.ui317.layout112 #modal.ui-window317.compact316.ui-window317[data-revision322] #modal-body:has(>.necro-research322),
+body.ui317.layout112 #modal.ui-window317.compact316.ui-window317[data-revision322] #modal-body:has(>.building-info322),
+body.ui317.layout112 #modal.ui-window317.compact316.ui-window317[data-revision322] #modal-body:has(>.building-upgrade322){overflow:hidden!important;min-height:0!important}
+#modal[data-revision322] .necro-research322{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;height:100%;min-height:0;padding:4px;box-sizing:border-box}
+#modal[data-revision322] .necro-card322{background:linear-gradient(145deg,#fff6db,#e8d8ad);border:2px solid #b5a273;border-radius:13px;display:grid;grid-template-columns:30% minmax(0,1fr);grid-template-rows:minmax(0,1fr) auto;gap:10px;padding:12px;min-height:0;box-sizing:border-box}
+#modal[data-revision322] .necro-card322>img{width:100%!important;height:100%!important;min-height:0!important;max-height:150px!important;object-fit:contain!important;align-self:center}
+#modal[data-revision322] .necro-copy322{display:flex;flex-direction:column;justify-content:center;gap:8px;min-width:0}
+#modal[data-revision322] .necro-copy322 h3{font-size:17px;line-height:1.15;margin:0;color:#214e58}
+#modal[data-revision322] .necro-copy322>b{font-size:13px;color:#866a37}
+#modal[data-revision322] .necro-benefits322{display:flex;flex-direction:column;gap:8px;font-size:13px}
+#modal[data-revision322] .necro-benefits322>span{display:flex;justify-content:space-between;gap:8px}
+#modal[data-revision322] .necro-card322>footer{grid-column:1/-1;display:grid;gap:8px;align-content:end}
+#modal[data-revision322] .necro-card322>footer>button{min-height:32px!important;height:34px!important;font-size:13px!important;width:100%!important}
+.research-price322{display:flex;justify-content:center;align-items:center;gap:12px;flex-wrap:wrap;font-size:13px}
+.research-price322>span{display:inline-flex;align-items:center;white-space:nowrap;gap:4px}
+.research-price322 img{width:22px!important;height:25px!important;object-fit:contain!important;margin:0!important}
+#modal[data-revision322] .necro-card322 .research-price322{background:#fff5d6;border:1px solid #ceba8b;border-radius:7px;padding:5px;gap:8px}
+.research-complete322{text-align:center;color:#45705a;padding:10px}
+#modal.necropole322 #modal-tabs{display:flex!important}
+#modal[data-revision322] .sacrifice-lock322{height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px}
+#modal[data-revision322] .sacrifice-lock322>img{height:80px!important;width:80px!important;object-fit:contain}
+#modal[data-revision322] .necro-catalogue322{height:100%;min-height:0}
+#modal[data-revision322] .necro-catalogue322 .scroll-catalogue311{height:100%;display:grid!important;grid-template-columns:repeat(6,minmax(0,1fr))!important;grid-auto-rows:minmax(0,1fr);gap:6px!important;overflow:auto}
+#modal[data-revision322] .necro-catalogue322 button{min-height:0!important;display:grid!important;grid-template-rows:minmax(35px,1fr) auto auto!important;padding:4px!important;font-size:11px!important;gap:3px!important}
+#modal[data-revision322] .necro-catalogue322 .scroll-art312{height:100%!important;width:100%!important;max-height:75px!important}
+#modal[data-revision322] .necro-catalogue322 .scroll-art312>img{object-fit:contain!important}
+#modal[data-revision322] .necro-catalogue322 small{font-size:10px!important}
+#modal[data-revision322] .necro-catalogue322 b{font-size:11px!important;line-height:1.1!important}
+.research-sheet322{display:grid;grid-template-columns:100px minmax(0,1fr);gap:20px;align-items:center;padding:10px}
+.research-sheet322>img{width:100px!important;height:110px!important;object-fit:contain}
+.research-sheet322>div{display:flex;flex-direction:column;gap:12px;min-width:0}.research-sheet322 h3,.research-sheet322 p{margin:0}.research-sheet322>div>button{align-self:stretch}
+.research-confirm322{display:grid;gap:15px;text-align:center}.research-confirm322 h3{margin:0}.research-confirm322 .research-price322{font-size:16px}
+.speed-options322{display:flex;gap:10px;flex-wrap:wrap}.speed-options322 button{display:flex;align-items:center;gap:8px}.speed-options322 img{width:35px!important;height:35px!important;object-fit:contain}
+#modal[data-revision322] .alliance-page322{display:grid;grid-template-rows:64px 56px minmax(0,1fr);gap:10px;height:100%;min-height:0}
+#modal[data-revision322] .alliance-page322>header{display:flex;align-items:center;gap:12px;padding:6px 12px;border-radius:10px;background:linear-gradient(120deg,#173f50,#347078);color:#fff0be;min-width:0}
+#modal[data-revision322] .alliance-page322>header .clan-emblem{width:52px!important;height:52px!important;min-width:52px!important}
+#modal[data-revision322] .alliance-page322>header>div{flex:1;min-width:0}
+#modal[data-revision322] .alliance-page322 h2{font-size:22px!important;margin:0 0 3px!important;line-height:1.1!important}
+#modal[data-revision322] .alliance-page322>header button{width:auto!important;height:30px!important;min-height:30px!important;font-size:12px!important}
+#modal[data-revision322] .alliance-metrics322{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+#modal[data-revision322] .alliance-metrics322>div{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;background:#efe3bc;border:1px solid #bfab7b;border-radius:8px;min-width:0}
+#modal[data-revision322] .alliance-metrics322 small{font-size:12px;color:#786944}
+#modal[data-revision322] .alliance-metrics322 b{font-size:17px}
+#modal[data-revision322] .alliance-text322{display:grid;grid-template-columns:1fr 1fr;gap:10px;min-height:0}
+#modal[data-revision322] .alliance-text322 article{background:#fff5db;border:1px solid #bfab7b;border-radius:10px;padding:10px;min-height:0;overflow:auto}
+#modal[data-revision322] .alliance-text322 h3{font-size:15px!important;margin:0 0 7px!important}
+#modal[data-revision322] .alliance-text322 p{font-size:13px!important;margin:0!important;white-space:pre-wrap;overflow-wrap:anywhere}
+#modal[data-revision322] .contributor-switch322{display:flex;gap:7px;margin-bottom:8px}
+#modal[data-revision322] .contributor-switch322>button{width:auto!important;min-height:29px!important;height:29px!important;font-size:12px!important;padding:4px 14px!important}
+#modal[data-revision322] .contributions-total322 table{width:100%;border-collapse:collapse;font-size:13px}.contributions-total322 th,.contributions-total322 td{padding:8px;border-bottom:1px solid #c9b98e;text-align:left}
+/* Fiches : identité et prérequis à gauche ; statistiques et actions à droite. */
+body.ui317.layout112 #modal.ui-window317.compact316.ui-window317[data-revision322] .building-info322,
+body.ui317.layout112 #modal.ui-window317.compact316.ui-window317[data-revision322] .building-upgrade322{display:grid!important;grid-template-columns:minmax(190px,30%) minmax(0,1fr)!important;gap:14px!important;height:100%!important;min-height:0!important;padding:3px!important;box-sizing:border-box!important}
+#modal[data-revision322] .building-info322>aside,#modal[data-revision322] .building-upgrade322>aside{display:grid!important;grid-template-rows:minmax(75px,1fr) auto!important;gap:8px!important;min-height:0!important;overflow:hidden!important}
+#modal[data-revision322] .building-identity322{display:grid;grid-template-columns:42% minmax(0,1fr);grid-template-rows:1fr 1fr;align-items:center;gap:6px;background:linear-gradient(145deg,#e9e0bf,#fff7dd);border:1px solid #bfad7d;border-radius:10px;padding:8px;min-height:0}
+#modal[data-revision322] .building-identity322>img{grid-row:1/3;width:100%!important;height:100%!important;max-height:105px!important;object-fit:contain!important}
+#modal[data-revision322] .building-identity322>h2{margin:0!important;font-size:17px!important;line-height:1.15!important;align-self:end}
+#modal[data-revision322] .building-identity322>b{font-size:13px!important;align-self:start}
+#modal[data-revision322] .building-details322{display:flex;flex-direction:column;gap:8px;min-height:0;overflow:hidden}
+#modal[data-revision322] .building-details322>header{display:flex;align-items:center;justify-content:space-between;border-bottom:2px solid #baa471;padding:3px 0 7px;gap:10px}
+#modal[data-revision322] .building-details322>header>h3{margin:0!important;font-size:18px!important}
+#modal[data-revision322] .building-details322>header>span{font-size:12px}
+body.ui317.layout112 #modal.ui-window317.compact316.ui-window317[data-revision322] .building-details322 .comparison-table{width:100%!important;margin:0!important;font-size:12px!important;table-layout:fixed!important}
+body.ui317.layout112 #modal.ui-window317.compact316.ui-window317[data-revision322] .building-details322 .comparison-table td,
+body.ui317.layout112 #modal.ui-window317.compact316.ui-window317[data-revision322] .building-details322 .comparison-table th{height:auto!important;padding:6px 5px!important;line-height:1.15!important;font-size:12px!important;white-space:normal!important}
+#modal[data-revision322] .building-details322>footer{margin-top:auto;display:flex;align-items:center;justify-content:space-between;gap:10px;padding:8px;background:#eae0bd;border:1px solid #bcaa7e;border-radius:8px}
+#modal[data-revision322] .building-details322>footer>button{min-height:32px!important;height:34px!important;font-size:13px!important;width:auto!important;min-width:100px!important}
+body.ui317.layout112 #modal.ui-window317.compact316.ui-window317[data-revision322] aside .prerequisites0304{margin:0!important;padding:7px!important;font-size:11px!important;border:1px solid #c0ad80!important;border-radius:10px!important}
+#modal[data-revision322] aside .prerequisites0304 h3{font-size:13px!important;margin:0 0 5px!important}
+#modal[data-revision322] aside .prerequisites0304 .prerequisite{min-height:0!important;padding:3px!important;gap:5px!important}
+#modal[data-revision322] aside .prerequisites0304 .prerequisite img,#modal[data-revision322] aside .builder-requirement img{height:25px!important;width:27px!important;object-fit:contain}
+#modal[data-revision322] aside .prerequisite strong,#modal[data-revision322] aside .prerequisite span,#modal[data-revision322] aside .builder-requirement{font-size:10px!important;line-height:1.1!important}
+#modal[data-revision322] aside .builder-requirement{padding:3px!important;gap:5px!important;margin-top:4px!important}
+#modal[data-revision322] aside .upgrade-blocker{font-size:10px!important;margin:3px 0!important;line-height:1.15!important}
+#modal[data-revision322] aside .no-building-prerequisite{font-size:10px!important;margin:3px 0!important}
+#modal[data-revision322] .building-details322 .mine-panel030{padding:5px!important;margin:0!important}
+#modal[data-revision322] .upgrade-extra322{display:flex;justify-content:space-between;padding:8px;background:#efe1b5;border-radius:6px;font-size:13px}
+body.ui317.layout112 #modal.ui-window317.compact316.ui-window317[data-revision322] .building-details322 .mine-summary030{height:auto!important;grid-template-columns:repeat(3,1fr)!important;gap:5px!important}
+/* Intention du nouvel export : plus de place aux monstres, boutons regroupés. */
+body.ui317.layout112 #modal.ui-window317.compact316.ui-window317[data-revision322] .recruit-card317 .troop-art317>img{width:100%!important;height:100%!important;object-fit:contain!important;translate:none!important}
+body.ui317.layout112 #modal.ui-window317.compact316.ui-window317[data-revision322] .hero-grid317 img{object-fit:contain!important}
+body.ui317 #bottom-hud .small-actions,body.ui317 #hud .small-actions{align-items:end!important}
+@media(max-height:390px){#modal[data-revision322] .necro-card322{padding:8px;gap:7px}#modal[data-revision322] .necro-copy322 h3{font-size:15px}#modal[data-revision322] .necro-benefits322{font-size:11px;gap:5px}#modal[data-revision322] .necro-card322 .research-price322{font-size:11px;gap:6px}#modal[data-revision322] .alliance-page322{grid-template-rows:55px 45px minmax(0,1fr);gap:7px}}
+#modal[data-revision322] .alliance-page322>header>.emblem030{flex:0 0 48px!important;width:48px!important;height:48px!important;min-width:48px!important;max-height:48px!important;position:relative!important;margin:0!important;align-self:center!important}
+#modal[data-revision322] .alliance-page322>header>.emblem030>svg{width:100%!important;height:100%!important;position:static!important}
+#modal[data-revision322] .alliance-page322>header h2{color:#ffe7ab!important}
+#modal[data-revision322] .alliance-page322>header span{font-size:12px}
+#modal[data-revision322] aside .prerequisites0304>ul{list-style:none!important;display:grid!important;gap:5px!important;padding:0!important;margin:7px 0 0!important}
+#modal[data-revision322] aside .prerequisites0304>ul>li{display:grid!important;grid-template-columns:minmax(0,1fr) auto 12px!important;gap:7px!important;align-items:center!important;padding:3px 0!important;font-size:11px!important}
+#modal[data-revision322] aside .prerequisites0304 li span{font-size:11px!important;line-height:1.2!important}
+#modal[data-revision322] aside .prerequisites0304 li small{font-size:11px!important;line-height:1.2!important;white-space:nowrap!important}
+#modal[data-revision322] aside .prerequisites0304>small{display:block;margin-top:5px;font-size:10px!important;line-height:1.2}
+body.ui317.layout112 #modal.ui-window317.compact316.ui-window317[data-revision322] .building-details322 .comparison-table td,
+body.ui317.layout112 #modal.ui-window317.compact316.ui-window317[data-revision322] .building-details322 .comparison-table th{padding:4px!important;font-size:11px!important;line-height:1.1!important}
+body.ui317.layout112 #modal.ui-window317.compact316.ui-window317[data-revision322] .building-details322 .comparison-table th:first-child{width:30%!important}
+body.ui317.layout112 #modal.ui-window317.compact316.ui-window317[data-revision322] .building-details322 .comparison-table th:nth-child(3){width:5%!important}
+body.ui317.layout112 #modal.ui-window317.compact316.ui-window317[data-revision322] .building-details322 .mine-summary030{height:60px!important;min-height:60px!important;margin:0!important;gap:5px!important;padding:4px!important;font-size:11px!important}
+#modal[data-revision322] .building-details322{gap:6px}
+#modal[data-revision322] .building-details322>footer{padding:4px 6px;flex-shrink:0}
+#modal[data-revision322] .building-details322>footer .research-price322{gap:6px;font-size:11px}
+#modal[data-revision322] .building-details322>footer .research-price322 img{height:20px!important;width:19px!important}
+#modal[data-revision322] .building-details322>header>h3{font-size:16px!important}
+body.ui317 #hud .chat-launch{width:61px!important;height:62px!important;top:auto!important}
+/* Ajustements supplémentaires du dernier export : les groupes restent dans leur fenêtre. */
+body.ui317.layout112 #modal.ui-window317.compact316.ui-window317[data-context321="army"] #modal-body>.center-gallery317{width:98%!important;height:calc(100% - 9px)!important;margin:6px auto 0!important}
+body.ui317.layout112 #modal.ui-window317.compact316.ui-window317[data-context321="army"] .troop-grid317{gap:8px!important}
+body.ui317.layout112 #modal.ui-window317.compact316.ui-window317[data-context321="hero-collection311"] #modal-body{padding-top:6px!important}
+#modal[data-revision322].alchemy322 .workbench312{gap:8px!important}
+body.ui317.layout112 #modal.ui-window317.compact316.ui-window317[data-revision322] .necro-card322>img{width:100%!important;height:100%!important;max-height:150px!important;min-height:0!important;object-fit:contain!important}
+@media(min-height:600px){
+ body.ui317.layout112 #modal.ui-window317.compact316.ui-window317[data-revision322] .building-details322 .comparison-table td,
+ body.ui317.layout112 #modal.ui-window317.compact316.ui-window317[data-revision322] .building-details322 .comparison-table th{padding:9px 7px!important;font-size:14px!important}
+ #modal[data-revision322] aside .prerequisites0304 li span,#modal[data-revision322] aside .prerequisites0304 li small{font-size:13px!important}
+ #modal[data-revision322] .building-identity322>h2{font-size:22px!important}
+ #modal[data-revision322] .necro-copy322 h3{font-size:22px}
+ #modal[data-revision322] .necro-benefits322{font-size:16px}
+}
+#modal[data-revision322] .mine-record322{background:#e5e7c7;border:1px solid #b5b58d;border-radius:10px;padding:7px;display:flex;flex-direction:column;gap:6px;flex-shrink:0;min-height:0}
+#modal[data-revision322] .mine-record-top322{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+#modal[data-revision322] .mine-record-top322>div{display:flex;align-items:center;gap:7px;min-width:0}
+#modal[data-revision322] .mine-record-top322>div:last-child{display:flex;flex-direction:column;gap:3px;align-items:stretch}
+#modal[data-revision322] .mine-record-top322 img{width:31px!important;height:31px!important;object-fit:contain!important}
+#modal[data-revision322] .mine-record-top322 span{display:flex;flex-direction:column;gap:2px}
+#modal[data-revision322] .mine-record-top322 small{font-size:11px!important;line-height:1.1!important}
+#modal[data-revision322] .mine-record-top322 b{font-size:16px!important;line-height:1.1!important}
+#modal[data-revision322] .mine-record-top322 progress{height:7px!important;width:100%!important;margin:0!important}
+#modal[data-revision322] .mine-record-bonuses322{display:grid;grid-template-columns:1fr 1fr;gap:4px 12px;border-top:1px solid #bcc499;padding-top:5px;font-size:11px}
+#modal[data-revision322] .mine-record-bonuses322>span{display:flex;align-items:center;justify-content:space-between;gap:5px}
+body.ui317.layout112 #modal.ui-window317.compact316.ui-window317[data-revision322] .necro-card322>img{max-width:100%!important}

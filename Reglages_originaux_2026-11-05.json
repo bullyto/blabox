@@ -1,0 +1,376 @@
+{
+  "format": "blabox-window-layouts",
+  "schemaVersion": 1,
+  "baseVersion": "0.32.2",
+  "editorVersion": "1.2.0",
+  "layoutRevision": "2026-11-05-user",
+  "builtInLayouts": [
+    "game/css/refonte112.css",
+    "game/css/refonte0322.css"
+  ],
+  "exportedAt": "2026-11-05T20:45:41.305Z",
+  "coordinateSystem": "parent-relative; sizes normalized; CSS translate; original layout retained",
+  "viewports": {
+    "pc": [
+      1600,
+      900
+    ],
+    "mobile": [
+      740,
+      360
+    ]
+  },
+  "layouts": {
+    "pc": {},
+    "mobile": {
+      "window:castle-management/builders/////": {
+        "label": "Ta forteresse",
+        "elements": {
+          "0:header:nth-of-type(1)": {
+            "w": 0.8641975308641975,
+            "h": 0.0898876404494382
+          },
+          "0:div:nth-of-type(2)": {
+            "w": 0.9917099633251832,
+            "h": 0.7754120879120879,
+            "y": 0.026785714285714263
+          }
+        }
+      },
+      "window:building-function/////garde-monstres/": {
+        "label": "Garnison de monstres",
+        "elements": {
+          "0:div:nth-of-type(2)>section:nth-of-type(1)>div:nth-of-type(1)": {
+            "x": -0.0028300429835464015,
+            "y": 0.017620902391349745
+          }
+        }
+      },
+      "window:castle-management/floors/////": {
+        "label": "Ta forteresse",
+        "elements": {
+          "0:div:nth-of-type(2)": {
+            "x": -0.0014899144254278726,
+            "y": 0.033482142857142856,
+            "w": 0.994689792176039,
+            "h": 0.7787603021978022
+          }
+        }
+      },
+      "window:settings//////": {
+        "label": "Paramètres",
+        "elements": {
+          "0:div:nth-of-type(2)>div:nth-of-type(2)>button:nth-of-type(3)": {
+            "deleted": true
+          },
+          "0:div:nth-of-type(2)>div:nth-of-type(2)": {
+            "deleted": true,
+            "x": 0.005534306278935185,
+            "y": 0.04150701452184607
+          },
+          "0:div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(2)": {
+            "deleted": true
+          },
+          "0:div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(1)": {
+            "deleted": true
+          }
+        }
+      },
+      "window:shop/shop/resources////": {
+        "label": "Magasin du royaume",
+        "elements": {
+          "0:div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>article:nth-of-type(1)": {
+            "w": 0.2389423076923077,
+            "h": 0.5492030492030493
+          },
+          "0:div:nth-of-type(2)>div:nth-of-type(1)>nav:nth-of-type(1)": {
+            "w": 0.18676253687315633,
+            "h": 1.40380859375,
+            "x": 0.00497787610619469
+          },
+          "0:div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>article:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>s:nth-of-type(1)": {
+            "x": 0,
+            "y": 0.05357142857142857
+          },
+          "0:div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>article:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>s:nth-of-type(1)": {
+            "x": 0,
+            "y": 0.1339285714285714
+          },
+          "0:div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>article:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>s:nth-of-type(1)": {
+            "x": 0.011421319796954316,
+            "y": 0.08035714285714285
+          },
+          "0:div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>article:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>s:nth-of-type(1)": {
+            "x": 0,
+            "y": 0.08035714285714285
+          },
+          "0:div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>article:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)": {
+            "w": 0.9566236811254396,
+            "h": 0.4865900383141762
+          },
+          "0:div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>article:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)": {
+            "w": 0.9354460093896714,
+            "h": 0.47509578544061304
+          },
+          "0:div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>article:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)": {
+            "w": 0.9291373239436619,
+            "h": 0.4640804597701149
+          },
+          "0:div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>article:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)": {
+            "w": 0.9248826291079811,
+            "h": 0.46360153256704983
+          },
+          "0:div:nth-of-type(2)>div:nth-of-type(1)>nav:nth-of-type(1)>button:nth-of-type(1)": {
+            "w": 1,
+            "h": 0.09426086956521737
+          },
+          "0:div:nth-of-type(2)>div:nth-of-type(1)>nav:nth-of-type(1)>button:nth-of-type(2)": {
+            "w": 1,
+            "h": 0.0947075208913649
+          },
+          "0:div:nth-of-type(2)>div:nth-of-type(1)>nav:nth-of-type(1)>button:nth-of-type(3)": {
+            "w": 1,
+            "h": 0.0947075208913649
+          },
+          "0:div:nth-of-type(2)>div:nth-of-type(1)>nav:nth-of-type(1)>button:nth-of-type(4)": {
+            "w": 1,
+            "h": 0.0947075208913649
+          },
+          "0:div:nth-of-type(2)>div:nth-of-type(1)>nav:nth-of-type(1)>button:nth-of-type(5)": {
+            "w": 1,
+            "h": 0.0947075208913649
+          },
+          "0:div:nth-of-type(2)>div:nth-of-type(1)>nav:nth-of-type(1)>button:nth-of-type(6)": {
+            "w": 1,
+            "h": 0.0947075208913649
+          },
+          "0:div:nth-of-type(2)>div:nth-of-type(1)>nav:nth-of-type(1)>button:nth-of-type(7)": {
+            "w": 1,
+            "h": 0.0947075208913649
+          }
+        }
+      },
+      "window:shop/shop/heroes////": {
+        "label": "Magasin du royaume",
+        "elements": {
+          "0:div:nth-of-type(2)>div:nth-of-type(1)>nav:nth-of-type(1)>button:nth-of-type(1)": {
+            "w": 0.9769230769230769,
+            "h": 0.125
+          },
+          "0:div:nth-of-type(2)>div:nth-of-type(1)>nav:nth-of-type(1)>button:nth-of-type(2)": {
+            "x": -0.01730769230769231,
+            "y": 0.003983402489626556,
+            "w": 0.9769230769230769,
+            "h": 0.12056737588652482
+          },
+          "0:div:nth-of-type(2)>div:nth-of-type(1)>nav:nth-of-type(1)>button:nth-of-type(3)": {
+            "w": 0.9769230769230769,
+            "h": 0.1152542372881356
+          },
+          "0:div:nth-of-type(2)>div:nth-of-type(1)>nav:nth-of-type(1)>button:nth-of-type(4)": {
+            "w": 0.9769230769230769,
+            "h": 0.12099644128113879
+          },
+          "0:div:nth-of-type(2)>div:nth-of-type(1)>nav:nth-of-type(1)>button:nth-of-type(5)": {
+            "w": 0.9769230769230769,
+            "h": 0.11409395973154363,
+            "x": -0.01730769230769231,
+            "y": 0
+          },
+          "0:div:nth-of-type(2)>div:nth-of-type(1)>nav:nth-of-type(1)>button:nth-of-type(6)": {
+            "w": 0.9769230769230769,
+            "h": 0.09770114942528736
+          },
+          "0:div:nth-of-type(2)>div:nth-of-type(1)>nav:nth-of-type(1)>button:nth-of-type(7)": {
+            "w": 0.9769230769230769,
+            "h": 0.1059190031152648
+          }
+        }
+      },
+      "window:inbox/messages/////": {
+        "label": "Le courrier du royaume",
+        "elements": {
+          "0:div:nth-of-type(2)>section:nth-of-type(1)": {
+            "w": 0.9657622167138811,
+            "h": 0.2752862595419847,
+            "y": 0.03864503816793893
+          },
+          "0:div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(1)>span:nth-of-type(1)>small:nth-of-type(1)": {
+            "x": -0.0020914425143786675,
+            "y": 0
+          },
+          "0:div:nth-of-type(2)>div:nth-of-type(1)": {
+            "x": 0,
+            "y": 0.060114503816793896
+          },
+          "0:div:nth-of-type(2)>section:nth-of-type(1)>h3:nth-of-type(1)": {
+            "x": -0.003347435957041238,
+            "y": 0.12478336221837089
+          },
+          "0:div:nth-of-type(2)>section:nth-of-type(1)>button:nth-of-type(1)": {
+            "x": 0.7899948858617323,
+            "y": -0.3275563258232236
+          }
+        }
+      },
+      "window:ranks/clans/////": {
+        "label": "Les champions de la semaine",
+        "elements": {
+          "0:div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>article:nth-of-type(1)": {
+            "w": 1,
+            "h": 0.06361323155216285
+          },
+          "0:div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>article:nth-of-type(2)>div:nth-of-type(1)>strong:nth-of-type(1)": {
+            "w": 1,
+            "h": 0.390625
+          },
+          "0:div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>article:nth-of-type(1)>img:nth-of-type(1)": {
+            "x": -0.0027372262773722625,
+            "y": 0
+          },
+          "0:div:nth-of-type(2)>div:nth-of-type(1)>aside:nth-of-type(1)": {
+            "w": 0.3021755162241888,
+            "h": 1.0097015428147949,
+            "y": -0.009701542814794904
+          }
+        }
+      },
+      "window:chat": {
+        "label": "Discussion",
+        "elements": {
+          "0:div:nth-of-type(1)": {
+            "x": 0,
+            "y": 0.006796319625911706
+          },
+          "0:@": {
+            "w": 0.2771524155366065,
+            "h": 0.4827682968287861,
+            "y": -0.05779315025706737
+          }
+        }
+      },
+      "window:army/formation/////": {
+        "label": "Centre de bataille",
+        "elements": {
+          "0:div:nth-of-type(2)": {
+            "x": 0.0031512605042017363,
+            "y": 0.02020958083832335,
+            "w": 0.9856442577030812,
+            "h": 0.777694610778443
+          }
+        }
+      },
+      "window:army/recruit/////": {
+        "label": "Centre de bataille",
+        "elements": {
+          "0:div:nth-of-type(2)>section:nth-of-type(1)>header:nth-of-type(1)": {
+            "x": -0.0016351744186046512,
+            "y": 0.0087890625
+          }
+        }
+      },
+      "window:offer0304//////": {
+        "label": "Offre unique",
+        "elements": {
+          "0:div:nth-of-type(2)>section:nth-of-type(1)>div:nth-of-type(1)>article:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>s:nth-of-type(1)": {
+            "x": -0.005021771180976941,
+            "y": 0.12315295991443452
+          },
+          "0:div:nth-of-type(2)>section:nth-of-type(1)>div:nth-of-type(1)>article:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>s:nth-of-type(1)": {
+            "x": -0.005021771180976941,
+            "y": 0.0738917759486607
+          },
+          "0:div:nth-of-type(2)>section:nth-of-type(1)>div:nth-of-type(1)>article:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>s:nth-of-type(1)": {
+            "x": 0.005021771180976941,
+            "y": 0.09852236793154762
+          },
+          "0:div:nth-of-type(2)>section:nth-of-type(1)>div:nth-of-type(1)>article:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>s:nth-of-type(1)": {
+            "x": -0.005021771180976941,
+            "y": 0.09852236793154762
+          },
+          "0:div:nth-of-type(2)>section:nth-of-type(1)>div:nth-of-type(1)>article:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>s:nth-of-type(1)": {
+            "x": 0,
+            "y": 0.12315295991443452
+          },
+          "0:div:nth-of-type(2)>section:nth-of-type(1)>div:nth-of-type(1)>article:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1)>s:nth-of-type(1)": {
+            "x": 0,
+            "y": 0.09852236793154762
+          }
+        }
+      },
+      "window:building-function////catalogue/necropole/": {
+        "label": "Nécropole",
+        "elements": {}
+      },
+      "window:clan/find///sacrifice//": {
+        "label": "Trouver un clan",
+        "elements": {
+          "0:div:nth-of-type(2)>div:nth-of-type(1)>article:nth-of-type(1)": {
+            "w": 1,
+            "h": 0.11450381679389313
+          }
+        }
+      },
+      "window:shop/shop/resources//sacrifice//": {
+        "label": "Magasin du royaume",
+        "elements": {
+          "0:div:nth-of-type(2)>div:nth-of-type(1)>nav:nth-of-type(1)>button:nth-of-type(1)": {
+            "w": 1,
+            "h": 0.10086455331412104
+          }
+        }
+      },
+      "window:inbox/messages///sacrifice//": {
+        "label": "Le courrier du royaume",
+        "elements": {
+          "0:div:nth-of-type(2)>section:nth-of-type(1)>button:nth-of-type(1)": {
+            "x": 0.7949812122011337,
+            "y": -0.5538410451733302
+          },
+          "0:div:nth-of-type(2)>section:nth-of-type(1)": {
+            "w": 0.9699009363104196,
+            "h": 0.2299618320610687,
+            "x": 0.003186968838526912,
+            "y": 0.004293893129770993
+          },
+          "0:div:nth-of-type(2)": {
+            "x": -0.0015756302521008404,
+            "y": 0.05052395209580837
+          },
+          "0:div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(1)>span:nth-of-type(1)>small:nth-of-type(1)": {
+            "x": 0,
+            "y": 0.0292326431181486
+          },
+          "0:div:nth-of-type(2)>div:nth-of-type(1)>button:nth-of-type(1)>strong:nth-of-type(1)": {
+            "x": -0.0016592920353982303,
+            "y": 0
+          },
+          "0:div:nth-of-type(2)>div:nth-of-type(1)": {
+            "x": -0.001593484419263456,
+            "y": 0.030057251908396948
+          }
+        }
+      },
+      "window:castle-management/floors///sacrifice//": {
+        "label": "Ta forteresse",
+        "elements": {
+          "0:div:nth-of-type(2)>div:nth-of-type(1)": {
+            "x": -0.003186968838526912,
+            "y": 0.03435114503816794
+          }
+        }
+      },
+      "window:castle-management/builders///sacrifice//": {
+        "label": "Ta forteresse",
+        "elements": {
+          "0:div:nth-of-type(2)>div:nth-of-type(1)": {
+            "w": 0.9776912181303116,
+            "h": 0.9770992366412213,
+            "x": 0,
+            "y": 0.012881679389312978
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,184 @@
+/* 0.32.1 : les zones de contenu ne passent jamais sous le titre ou les onglets. */
+body.ui317 #modal.ui-window317{grid-template-rows:clamp(32px,calc(var(--ui-height317)*.075),44px) minmax(0,1fr) auto!important}
+body.ui317 #modal.ui-window317>.panel-header h1{font-size:clamp(17px,calc(var(--ui-height317)*.042),25px)!important}
+body.ui317 #modal.ui-window317>#modal-tabs{padding:3px 6px!important}
+body.ui317 #modal.ui-window317>#modal-tabs>button{height:26px!important;min-height:26px!important}
+body.ui317 #modal.ui-window317>#modal-body{padding:8px 12px!important}
+body.ui317 #modal.ui-window317[data-context321="army"] #modal-body,
+body.ui317 #modal.ui-window317[data-context321="garnison"] #modal-body,
+body.ui317 #modal.ui-window317[data-context321="caserne-heros"] #modal-body,
+body.ui317 #modal.ui-window317[data-context321="garde-monstres"] #modal-body,
+body.ui317 #modal.ui-window317[data-context321="castle-management"] #modal-body{overflow:hidden!important}
+body.ui317 #modal.ui-window317[data-context321] .hero-store321{display:grid!important;grid-template-rows:22px minmax(76px,1fr) auto 30px 32px!important;align-items:center;gap:5px!important;padding:10px!important;min-height:232px!important;height:calc(var(--ui-height317)*.57)!important;max-height:330px!important}
+body.ui317 #modal.ui-window317[data-context321] .hero-store321 .rarity030{position:static!important;grid-row:1;justify-self:start;font-size:11px!important;line-height:18px;padding:1px 9px!important;max-width:100%;margin:0!important}
+body.ui317 #modal.ui-window317[data-context321] .hero-store321>.store-art030{grid-row:2;width:100%!important;height:100%!important;max-height:175px!important;object-fit:contain!important;min-height:0!important;margin:0!important}
+body.ui317 #modal.ui-window317[data-context321] .hero-store321>h3{grid-row:3;font-size:clamp(12px,calc(var(--ui-height317)*.027),18px)!important;line-height:1.15!important;margin:0!important;min-height:26px;display:flex;justify-content:center;align-items:center;text-align:center}
+body.ui317 #modal.ui-window317[data-context321] .hero-store321>button{width:100%!important;min-width:0!important;margin:0!important;min-height:0!important;height:100%!important;padding:2px 5px!important;font-size:13px!important;line-height:1.1!important}
+body.ui317 #modal.ui-window317[data-context321] .hero-store321>button[data-action="hero"]{grid-row:4}
+body.ui317 #modal.ui-window317[data-context321] .hero-store321>button[data-action="buy"]{grid-row:5}
+body.ui317 #modal.ui-window317[data-context321] .hero-store321>button img{height:20px!important;width:22px!important;vertical-align:middle}
+body.ui317 #modal.ui-window317[data-context321] .center-gallery317{gap:4px!important}
+body.ui317 #modal.ui-window317[data-context321] .center-gallery317>.pager316{min-height:23px!important;padding:0!important;margin:0!important}
+body.ui317 #modal.ui-window317[data-context321] .pager316 button{height:23px!important;min-height:23px!important;padding:1px 12px!important;font-size:13px!important}
+body.ui317 #modal.ui-window317[data-context321] .hero-card317{padding:6px!important;gap:3px!important;overflow:hidden}
+body.ui317 #modal.ui-window317[data-context321] .hero-card317 h3{font-size:clamp(11px,calc(var(--ui-height317)*.025),16px)!important;line-height:1.1!important;margin:0!important}
+body.ui317 #modal.ui-window317[data-context321] .hero-card317>img{min-height:0!important;max-height:calc(var(--ui-height317)*.16)!important;height:100%!important;width:100%!important;object-fit:contain}
+body.ui317 #modal.ui-window317[data-context321] .hero-card317>button{min-height:23px!important;height:25px!important;font-size:12px!important;padding:2px!important}
+body.ui317 #modal.ui-window317[data-context321] .recruitment317>header{min-height:26px!important;padding:3px 7px!important;flex-wrap:nowrap}
+body.ui317 #modal.ui-window317[data-context321] .recruitment317>header button{min-height:23px!important;font-size:11px!important;padding:2px 7px!important;white-space:nowrap}
+body.ui317 #modal.ui-window317[data-context321] .recruit-card317{min-height:0!important;overflow:hidden;grid-template-rows:auto minmax(25px,1fr) 26px 28px!important;padding:5px!important;gap:3px!important}
+body.ui317 #modal.ui-window317[data-context321] .recruit-card317 h3{font-size:clamp(11px,calc(var(--ui-height317)*.026),17px)!important;line-height:1.1!important}
+body.ui317 #modal.ui-window317[data-context321] .recruit-card317 .troop-art317{min-height:0!important;overflow:hidden}
+body.ui317 #modal.ui-window317[data-context321] .recruit-card317 .troop-art317 img{max-height:100%!important;height:100%!important;object-fit:contain}
+body.ui317 #modal.ui-window317[data-context321] .recruit-card317 .recruit-submit317{height:28px!important;min-height:28px!important;padding:2px!important;font-size:12px!important;white-space:nowrap}
+body.ui317 #modal.ui-window317[data-context321] .qty317{height:26px!important;gap:5px!important;align-items:center!important}
+body.ui317 #modal.ui-window317[data-context321] .qty317 input,body.ui317 #modal.ui-window317[data-context321] .qty317 button{height:25px!important;min-height:25px!important;padding:1px!important;font-size:13px!important}
+body.ui317 #modal.ui-window317[data-context321] .builders-grid316{height:100%!important;grid-template-rows:repeat(2,minmax(0,1fr))!important;gap:8px!important;align-content:stretch!important}
+body.ui317 #modal.ui-window317[data-context321] .builder316{min-height:0!important;padding:8px!important;gap:5px!important;display:flex;flex-direction:column;justify-content:center;align-items:center;overflow:hidden}
+body.ui317 #modal.ui-window317[data-context321] .builder316>img{height:clamp(30px,calc(var(--ui-height317)*.12),72px)!important;width:auto!important;max-width:80px!important}
+body.ui317 #modal.ui-window317[data-context321] .builder316 h3{font-size:clamp(13px,calc(var(--ui-height317)*.03),20px)!important;line-height:1.1!important;margin:0!important}
+body.ui317 #modal.ui-window317[data-context321] .builder316 small,body.ui317 #modal.ui-window317[data-context321] .builder316 b{font-size:clamp(10px,calc(var(--ui-height317)*.025),15px)!important;line-height:1.15!important}
+body.ui317 #modal.ui-window317[data-context321] .builder316>button{min-height:25px!important;font-size:12px!important;padding:3px 8px!important;max-width:100%}
+body.ui317 #modal.ui-window317[data-context321] .hero-garrison321{height:100%;display:grid;grid-template-rows:minmax(110px,1fr) minmax(75px,.8fr);gap:10px;min-height:0}
+body.ui317 #modal.ui-window317[data-context321] .hero-garrison321 .garrison-slots316{height:100%!important;margin:0!important;gap:8px!important;grid-template-rows:minmax(0,1fr)!important}
+body.ui317 #modal.ui-window317[data-context321] .house316{height:100%!important;min-height:0!important;padding:8px!important;display:grid!important;grid-template-rows:22px minmax(0,1fr) 25px!important;gap:4px!important;box-sizing:border-box;overflow:hidden}
+body.ui317 #modal.ui-window317[data-context321] .house316>b{font-size:14px!important;line-height:20px!important}
+body.ui317 #modal.ui-window317[data-context321] .house-pick316{height:100%!important;min-height:0!important;display:flex!important;flex-direction:column;align-items:center;justify-content:center;padding:2px!important;gap:2px!important;font-size:13px!important;overflow:hidden}
+body.ui317 #modal.ui-window317[data-context321] .house-pick316>img{height:calc(var(--ui-height317)*.13)!important;max-height:90px!important;width:85px!important;min-height:0!important;object-fit:contain}
+body.ui317 #modal.ui-window317[data-context321] .house316>button.secondary:not(.house-pick316){height:25px!important;min-height:25px!important;padding:2px!important;font-size:12px!important}
+body.ui317 #modal.ui-window317[data-context321] .locked-inside316{grid-row:2/4;display:flex!important;flex-direction:column;justify-content:center;align-items:center;font-size:13px!important}
+body.ui317 #modal.ui-window317[data-context321] .locked-inside316>img{width:36px!important;height:40px!important}
+body.ui317 #modal.ui-window317[data-context321] .passives316{min-height:0!important;margin:0!important;padding:7px!important;display:grid;grid-template-rows:26px minmax(0,1fr);gap:5px!important;overflow:hidden}
+body.ui317 #modal.ui-window317[data-context321] .passives316>header{margin:0!important;display:flex;justify-content:space-between;align-items:center}
+body.ui317 #modal.ui-window317[data-context321] .passives316 h3{font-size:15px!important;margin:0!important}
+body.ui317 #modal.ui-window317[data-context321] .passives316>header button{height:25px!important;min-height:25px!important;font-size:12px!important;padding:2px 8px!important}
+body.ui317 #modal.ui-window317[data-context321] .passive-grid316{display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr));gap:5px!important;min-height:0}
+body.ui317 #modal.ui-window317[data-context321] .passive-grid316 article{min-width:0;min-height:0;display:flex!important;align-items:center;gap:5px!important;padding:4px!important;background:#f2e5c3;border:1px solid #c6af75;border-radius:8px}
+body.ui317 #modal.ui-window317[data-context321] .passive-grid316 img{height:40px!important;width:35px!important;object-fit:contain}
+body.ui317 #modal.ui-window317[data-context321] .passive-grid316 b{font-size:11px!important}.passive-grid316 small{display:block;font-size:10px!important;line-height:1.15!important}
+body.ui317 #modal.ui-window317[data-context321] .center-formation316{height:100%!important;display:grid!important;grid-template-rows:minmax(100px,1.15fr) minmax(70px,.85fr)!important;gap:8px!important}
+body.ui317 #modal.ui-window317[data-context321] .center-formation316 .garrison-slots316{height:100%!important;margin:0!important}
+body.ui317 #modal.ui-window317[data-context321] .center-formation316 .troops316{height:100%!important;padding:6px!important;margin:0!important;display:grid;grid-template-rows:20px minmax(0,1fr);min-height:0}
+body.ui317 #modal.ui-window317[data-context321] .troops316>h3{font-size:13px!important;margin:0!important}
+body.ui317 #modal.ui-window317[data-context321] .troops316>div{height:100%!important;min-height:0!important}
+body.ui317 #modal.ui-window317[data-context321] .troops316 article{padding:3px!important;min-height:0!important}
+body.ui317 #modal.ui-window317[data-context321] .troops316 small{font-size:10px!important}
+body.ui317 #modal.ui-window317[data-context321] .troops316 b{font-size:13px!important}
+body.ui317 #modal.ui-window317[data-context321] .guards321{grid-template-rows:minmax(75px,.9fr) minmax(110px,1.1fr)!important;gap:8px!important}
+body.ui317 #modal.ui-window317[data-context321] .assigned-guards317{height:100%!important;min-height:0!important;gap:8px!important}
+body.ui317 #modal.ui-window317[data-context321] .assigned-guard317{height:100%!important;min-height:0!important;display:grid!important;grid-template-rows:minmax(25px,1fr) 17px 25px!important;padding:5px!important;gap:3px!important;overflow:hidden}
+body.ui317 #modal.ui-window317[data-context321] .assigned-guard317>img{width:100%!important;height:100%!important;min-height:0!important;object-fit:contain;max-height:none!important}
+body.ui317 #modal.ui-window317[data-context321] .assigned-guard317>b{font-size:12px!important;line-height:15px!important;text-align:center}
+body.ui317 #modal.ui-window317[data-context321] .assigned-guard317>button{height:25px!important;min-height:25px!important;padding:2px!important;font-size:12px!important}
+body.ui317 #modal.ui-window317[data-context321] .assigned-guard317.empty{display:flex!important;align-items:center;justify-content:center}
+body.ui317 #modal.ui-window317[data-context321] .guard-stock317 .stock-card317{display:grid!important;grid-template-columns:38px minmax(0,1fr)!important;grid-template-rows:minmax(0,1fr) 24px!important;gap:3px!important;padding:5px!important;min-height:0!important;overflow:hidden}
+body.ui317 #modal.ui-window317[data-context321] .stock-card317>img{height:38px!important;width:38px!important;max-height:100%!important;object-fit:contain;grid-column:1;grid-row:1}
+body.ui317 #modal.ui-window317[data-context321] .stock-card317>div{grid-column:2;grid-row:1;align-self:center;min-width:0}
+body.ui317 #modal.ui-window317[data-context321] .stock-card317 h3{font-size:11px!important;line-height:1.1!important;margin:0!important}.stock-card317 b{font-size:12px!important}
+body.ui317 #modal.ui-window317[data-context321] .stock-card317>button{grid-column:1/-1;grid-row:2;height:24px!important;min-height:24px!important;font-size:11px!important;padding:2px!important}
+body.ui317 #modal.ui-window317[data-context321] .member-actions321{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+body.ui317 #modal.ui-window317[data-context321] .member-actions321 button{min-height:34px!important;font-size:13px!important;padding:5px!important}
+/* Calendriers : collecter remplace le jour, sans dépasser de la case. */
+body.ui317 #modal.ui-window317[data-context321] .free-calendar316{height:calc(100% - 30px)!important;min-height:0!important;grid-template-rows:repeat(3,minmax(0,1fr))!important;gap:6px!important}
+body.ui317 #modal.ui-window317[data-context321] .free-calendar316 .day-card{min-height:0!important;display:flex!important;flex-direction:column;align-items:center;justify-content:center;padding:5px!important;gap:3px!important;overflow:hidden!important}
+body.ui317 #modal.ui-window317[data-context321] .free-calendar316 .day-card>img{height:clamp(22px,calc(var(--ui-height317)*.065),42px)!important;width:42px!important;object-fit:contain}
+body.ui317 #modal.ui-window317[data-context321] .free-calendar316 .day-card>.collect-day321{height:22px!important;min-height:22px!important;max-width:100%!important;min-width:0!important;padding:1px 5px!important;font-size:10px!important;line-height:14px!important;margin:0!important;flex:none!important}
+body.ui317 #modal.ui-window317[data-context321] .free-calendar316 b{font-size:12px!important;line-height:1.1!important;margin:0!important}
+body.ui317 #modal.ui-window317[data-context321] .free-calendar316 small{font-size:11px!important;line-height:1.1!important;margin:0!important}
+body.ui317 #modal.ui-window317[data-context321] .free-calendar-heading316{height:24px;display:flex;align-items:center;gap:8px;margin:0 0 6px!important;font-size:13px!important}
+body.ui317 #modal.ui-window317[data-context321] .calendar316{height:100%!important;display:grid;grid-template-rows:26px minmax(0,1fr);gap:7px!important;min-height:0!important}
+body.ui317 #modal.ui-window317[data-context321] .calendar316>header{margin:0!important;min-height:0;display:flex;justify-content:space-between;align-items:center}
+body.ui317 #modal.ui-window317[data-context321] .calendar-content316{height:100%!important;min-height:0!important;grid-template-columns:minmax(0,1fr) minmax(135px,22%)!important}
+body.ui317 #modal.ui-window317[data-context321] .calendar-grid316{height:100%!important;min-height:0!important;grid-template-rows:repeat(3,minmax(0,1fr))!important;gap:5px!important}
+body.ui317 #modal.ui-window317[data-context321] .calendar-grid316>article{min-height:0!important;overflow:hidden;display:grid;grid-template-rows:minmax(0,1fr) auto}
+body.ui317 #modal.ui-window317[data-context321] .day-button316{height:100%!important;min-height:0!important;padding:14px 3px 3px!important;display:flex!important;align-items:center;justify-content:center}
+body.ui317 #modal.ui-window317[data-context321] .day-button316 img{height:clamp(22px,calc(var(--ui-height317)*.09),56px)!important;width:100%!important;object-fit:contain}
+body.ui317 #modal.ui-window317[data-context321] .calendar-grid316 .choose-day316{position:static!important;height:21px!important;min-height:21px!important;line-height:15px!important;padding:1px 3px!important;margin:2px!important;font-size:10px!important;border-radius:5px!important;border:1px solid #a28d59!important;background:linear-gradient(#8cb5c0,#477a87)!important;color:#fff5d7!important;box-shadow:0 2px #8f8058!important}
+body.ui317 #modal.ui-window317[data-context321] .calendar-content316>aside{min-height:0!important;overflow:auto;gap:5px!important;padding:8px!important}
+body.ui317 #modal.ui-window317[data-context321] .calendar-content316>aside button{min-height:27px!important;padding:3px!important;font-size:12px!important}
+body.ui317 #modal.ui-window317[data-context321] .calendar-marketing321{height:100%;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;min-height:0}
+body.ui317 #modal.ui-window317[data-context321] .calendar-marketing321 article{display:grid;grid-template-rows:minmax(60px,1fr) auto 25px 32px;gap:5px;min-height:0;overflow:hidden;padding:10px;border:2px solid #7296a0;border-radius:14px;background:linear-gradient(145deg,#f9f2dc,#cee4df);text-align:center}
+body.ui317 #modal.ui-window317[data-context321] .calendar-marketing321 .epic{border-color:#a083bc;background:linear-gradient(145deg,#fff6df,#dfcfe9)}
+body.ui317 #modal.ui-window317[data-context321] .calendar-marketing321 .legend{border-color:#c2a65d;background:linear-gradient(145deg,#fff9dd,#eed183)}
+body.ui317 #modal.ui-window317[data-context321] .calendar-art321{position:relative;min-height:0;display:flex;align-items:center;justify-content:center;background:radial-gradient(ellipse,#fff7dbb0,transparent 65%)}
+body.ui317 #modal.ui-window317[data-context321] .calendar-art321>img{height:100%!important;width:44%!important;max-height:150px!important;object-fit:contain}
+body.ui317 #modal.ui-window317[data-context321] .calendar-art321>.scroll315{width:29%!important;height:65%!important;transform:rotate(-12deg)}
+body.ui317 #modal.ui-window317[data-context321] .calendar-art321>img:last-child{width:23%!important;height:58%!important;transform:rotate(10deg)}
+body.ui317 #modal.ui-window317[data-context321] .calendar-marketing321 h2{font-size:clamp(17px,calc(var(--ui-height317)*.04),25px)!important;margin:0 0 5px!important}
+body.ui317 #modal.ui-window317[data-context321] .calendar-marketing321 b,.calendar-marketing321 span,.calendar-marketing321 small{display:block;font-size:clamp(10px,calc(var(--ui-height317)*.023),14px)!important;line-height:1.25}
+body.ui317 #modal.ui-window317[data-context321] .calendar-marketing321 small{margin-top:5px;color:#5b6966}
+body.ui317 #modal.ui-window317[data-context321] .calendar-marketing321 strong{font-size:20px!important}
+body.ui317 #modal.ui-window317[data-context321] .calendar-marketing321 button{min-height:28px!important;font-size:13px!important;padding:2px 5px!important}
+body.ui317 #modal.ui-window317[data-context321] .academy-spells321{height:100%;display:grid;grid-template-rows:minmax(0,1fr) auto;gap:6px;min-height:0}
+body.ui317 #modal.ui-window317[data-context321] .academy-spells321 .spells-grid316{height:100%!important;grid-template-rows:repeat(2,minmax(0,1fr))!important;min-height:0!important}
+body.ui317 #modal.ui-window317[data-context321] .academy-spells321 .spells-grid316 article{height:100%!important;min-height:0!important;grid-template-rows:minmax(0,1fr) 26px!important;box-sizing:border-box}
+body.ui317 #modal.ui-window317[data-context321] .academy-spells321 .spells-grid316 article>img{max-height:75px!important;width:60px!important;height:100%!important;object-fit:contain}
+body.ui317 #modal.ui-window317[data-context321] .academy-spells321 .spells-grid316 button{height:26px!important;min-height:26px!important}
+body.ui317.war-map321 #hud>*{display:none!important}
+body.ui317.war-map321 #hud>.energy-box,body.ui317.war-map321 #hud>.mana-box,body.ui317.war-map321 #hud>.chat-launch,body.ui317.war-map321 #hud>.clan-launch{display:flex!important}
+body.ui317.war-map321 #selection{display:none!important}
+body.ui317.war-map321 .full-map-footer{background:none!important;pointer-events:none;bottom:12px!important}
+body.ui317 #modal.ui-window317[data-context321] .war-attempts321{padding:6px 16px;background:#123d4ded;border:2px solid #b59a58;border-radius:10px;color:#fff1c2;display:flex;align-items:center;gap:8px}
+body.ui317 #modal.ui-window317[data-context321] .war-attempts321 b{font-size:24px}.war-attempts321 span{font-size:13px}
+body.ui317.war-map321 .map-information{display:none!important}
+body.ui317.war-map321 .map-close{z-index:100;right:16px!important;top:16px!important}
+@media(max-height:450px){body.ui317 #modal.ui-window317>#modal-body{padding:5px 9px!important}}
+
+body.ui317 #modal.ui-window317{height:min(640px,calc(var(--ui-height317) - 24px))!important;max-height:calc(var(--ui-height317) - 24px)!important}
+body.ui317 #modal.ui-window317.compact316>.panel-header,body.ui317.short317 #modal.ui-window317.compact316>.panel-header{height:100%!important;min-height:0!important;max-height:100%!important;align-self:stretch!important;overflow:hidden!important;box-sizing:border-box!important}
+body.ui317 #modal.ui-window317.compact316>.panel-header h1,body.ui317.short317 #modal.ui-window317.compact316>.panel-header h1{font-size:clamp(17px,calc(var(--ui-height317)*.042),25px)!important;line-height:1.15!important;height:100%!important}
+body.ui317 #modal.ui-window317[data-context321] .research-grid316{height:100%!important;grid-template-rows:repeat(2,minmax(0,1fr))!important;min-height:0!important}
+body.ui317 #modal.ui-window317[data-context321] .research-grid316>.unit316{height:100%!important;min-height:0!important;display:grid!important;grid-template-rows:minmax(25px,1fr) 18px 15px 26px!important;gap:3px!important;padding:5px!important;box-sizing:border-box;overflow:hidden}
+body.ui317 #modal.ui-window317[data-context321] .research-grid316>.unit316>img{height:100%!important;max-height:75px!important;width:80px!important;justify-self:center;object-fit:contain}
+body.ui317 #modal.ui-window317[data-context321] .research-grid316 h3{font-size:13px!important;line-height:16px!important;margin:0!important}
+body.ui317 #modal.ui-window317[data-context321] .research-grid316 button{height:26px!important;min-height:26px!important;font-size:11px!important;padding:2px!important}
+body.ui317 #modal.ui-window317[data-context321] .calendar-content316>aside>.calendar-banner321{height:clamp(40px,calc(var(--ui-height317)*.10),75px)!important;max-height:75px!important;width:100%!important;object-fit:cover;border-radius:6px}
+.public-actions321{display:flex;justify-content:center;margin-top:7px}.public-actions321 button{min-height:29px!important;font-size:12px!important;padding:4px 12px!important}
+body.ui317.war-map321 #hud{visibility:hidden!important;pointer-events:none!important}
+body.ui317.war-map321 #chat{z-index:100001!important}
+.war-controls321{position:absolute;inset:0;pointer-events:none;z-index:50;display:flex;justify-content:space-between;align-items:flex-end;padding:12px;box-sizing:border-box}
+.war-pools321{position:absolute;top:12px;left:12px;display:flex;gap:8px}
+.war-links321{display:flex;gap:8px;pointer-events:auto}
+.war-controls321 button{pointer-events:auto;min-height:34px!important;padding:5px 10px!important;font-size:13px!important;display:flex;align-items:center;justify-content:center;gap:5px;background:linear-gradient(#427e8b,#174758);color:#fff0c6;border:2px solid #c1a56a;border-radius:8px}
+.war-controls321 button img{height:25px!important;width:25px!important;object-fit:contain}
+body.ui317.war-map321 .map-close{z-index:60!important}
+body.ui317.war-map321 .full-map-footer{z-index:55!important;left:50%!important;transform:translateX(-50%)!important;width:max-content!important;pointer-events:none;bottom:12px!important}
+body.ui317 #modal.ui-window317.compact316[data-context321] .house-pick316,body.ui317.short317 #modal.ui-window317.compact316[data-context321] .house-pick316{width:100%!important;height:100%!important;min-height:0!important;max-height:none!important;justify-self:stretch!important;align-self:stretch!important}
+body.ui317 #modal.ui-window317.compact316[data-context321] .house-pick316>img,body.ui317.short317 #modal.ui-window317.compact316[data-context321] .house-pick316>img{height:calc(var(--ui-height317)*.17)!important;width:100%!important;max-height:110px!important;object-fit:contain}
+body.ui317 #modal.ui-window317.compact316[data-context321] .house-pick316 span{font-size:12px!important;line-height:15px!important}
+body.ui317 #modal.ui-window317[data-context321] .sacrifice321{height:100%;min-height:0;display:grid;grid-template-rows:minmax(78px,.85fr) minmax(110px,1.15fr);gap:8px}
+body.ui317 #modal.ui-window317[data-context321] .sacrifice-bench321{display:grid;grid-template-columns:1fr 1fr minmax(100px,.65fr);align-items:center;gap:10px;min-height:0;border:1px solid #b49a63;border-radius:12px;padding:6px;background:#f0e2be}
+body.ui317 #modal.ui-window317[data-context321] .sacrifice-bench321 .drop-slot312{height:100%!important;min-height:0!important;padding:4px!important;display:flex!important;align-items:center;justify-content:center;gap:5px!important;overflow:hidden;box-sizing:border-box}
+body.ui317 #modal.ui-window317[data-context321] .sacrifice-bench321 .drop-slot312>small{display:none!important}
+body.ui317 #modal.ui-window317[data-context321] .sacrifice-bench321 .drop-slot312>b{font-size:12px!important}
+body.ui317 #modal.ui-window317[data-context321] .sacrifice-bench321 .drop-slot312>img{height:60px!important;max-height:100%!important;width:60px!important;object-fit:contain}
+body.ui317 #modal.ui-window317[data-context321] .sacrifice-bench321>button:last-child{height:32px!important;min-height:32px!important;font-size:13px!important;padding:3px!important}
+body.ui317 #modal.ui-window317[data-context321] .sacrifice-result321{display:flex;align-items:center;justify-content:center;gap:8px;font-size:12px;min-height:0}
+body.ui317 #modal.ui-window317[data-context321] .sacrifice-result321>img{height:55px!important;max-height:100%!important;width:55px!important;object-fit:contain}
+body.ui317 #modal.ui-window317[data-context321] .sacrifice-result321>span{font-size:23px}
+body.ui317 #modal.ui-window317[data-context321] .sacrifice-inventories321{display:grid;grid-template-columns:1fr 1fr;gap:10px;min-height:0}
+body.ui317 #modal.ui-window317[data-context321] .sacrifice-inventories321>section{display:grid;grid-template-rows:20px minmax(0,1fr) auto;border:1px solid #b6a473;border-radius:9px;padding:5px;gap:3px;min-height:0;background:#fff5da;overflow:hidden}
+body.ui317 #modal.ui-window317[data-context321] .sacrifice-inventories321 h3{font-size:13px!important;margin:0!important;line-height:20px!important;text-align:center}
+body.ui317 #modal.ui-window317[data-context321] .sacrifice-stock321{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));grid-auto-rows:minmax(0,1fr);gap:4px;min-height:0}
+body.ui317 #modal.ui-window317[data-context321] .sacrifice-stock321>button{min-height:0!important;height:100%!important;padding:3px!important;display:flex!important;align-items:center;justify-content:center;flex-direction:column;gap:2px;font-size:10px!important;border-radius:7px!important;box-sizing:border-box;overflow:hidden;background:#eee2c1!important;color:#254b55!important}
+body.ui317 #modal.ui-window317[data-context321] .sacrifice-stock321>button>img{height:clamp(28px,calc(var(--ui-height317)*.1),60px)!important;width:50px!important;object-fit:contain;min-height:0!important}
+body.ui317 #modal.ui-window317[data-context321] .sacrifice-stock321 b{font-size:10px!important;line-height:1.1!important}.sacrifice-stock321 small{font-size:9px!important}
+.empty-stock321{grid-column:1/-1;text-align:center;align-self:center;font-size:12px;color:#8c805e}
+body.ui317 #modal.ui-window317.compact316[data-context321] .house316{grid-template-columns:minmax(0,1fr)!important}
+body.ui317 #modal.ui-window317.compact316[data-context321] .house316>*{grid-column:1!important}
+body.ui317 #modal.ui-window317.compact316 #modal-body .store-card030.hero-store321{grid-template-columns:minmax(0,1fr)!important}
+body.ui317 #modal.ui-window317.compact316 #modal-body .store-card030.hero-store321>button{justify-self:stretch!important;align-self:stretch!important;width:100%!important;max-width:none!important;box-sizing:border-box!important}
+body.ui317 #modal.ui-window317.compact316[data-context321] .scroll-catalogue311{height:100%!important;display:grid!important;grid-template-columns:repeat(7,minmax(0,1fr))!important;grid-template-rows:repeat(3,minmax(0,1fr))!important;grid-auto-rows:initial!important;gap:5px!important;margin:0!important;padding:2px!important;box-sizing:border-box}
+body.ui317 #modal.ui-window317.compact316[data-context321] .scroll-catalogue311>.scroll-tile311{height:100%!important;min-height:0!important;display:grid!important;grid-template-rows:minmax(25px,1fr) auto 12px!important;grid-template-columns:minmax(0,1fr)!important;gap:2px!important;padding:4px!important;overflow:hidden;box-sizing:border-box}
+body.ui317 #modal.ui-window317.compact316[data-context321] .scroll-catalogue311>.scroll-tile311>img{position:static!important;height:100%!important;max-height:65px!important;min-height:0!important;width:100%!important;object-fit:contain;align-self:center!important;justify-self:center!important;margin:0!important}
+body.ui317 #modal.ui-window317.compact316[data-context321] .scroll-catalogue311>.scroll-tile311>b{font-size:10px!important;line-height:1.1!important;margin:0!important}
+body.ui317 #modal.ui-window317.compact316[data-context321] .scroll-catalogue311>.scroll-tile311>small{font-size:9px!important;line-height:12px!important;margin:0!important}
+body.ui317 #modal.ui-window317.compact316 #modal-body .diamond-offer315{height:100%;display:grid;grid-template-rows:22px 16px minmax(0,1fr);gap:3px;min-height:0}
+body.ui317 #modal.ui-window317.compact316 #modal-body .diamond-offer315 h2{font-size:18px!important;line-height:22px!important;margin:0!important}
+body.ui317 #modal.ui-window317.compact316 #modal-body .diamond-offer315>.offer-timer0304{font-size:11px!important;line-height:16px!important;margin:0!important;text-align:center}
+body.ui317 #modal.ui-window317.compact316 #modal-body .diamond-packs315{height:100%;display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;grid-template-rows:repeat(2,minmax(0,1fr))!important;gap:5px!important;min-height:0}
+body.ui317 #modal.ui-window317.compact316 #modal-body .diamond-packs315 article{display:grid!important;grid-template-rows:minmax(20px,1fr) 15px 18px 25px!important;grid-template-columns:minmax(0,1fr)!important;gap:2px!important;padding:5px!important;min-height:0;box-sizing:border-box;overflow:hidden}
+body.ui317 #modal.ui-window317.compact316 #modal-body .diamond-packs315 img{height:100%!important;min-height:0!important;max-height:70px!important;width:100%!important;object-fit:contain;justify-self:center;align-self:center}
+body.ui317 #modal.ui-window317.compact316 #modal-body .diamond-packs315 b{font-size:11px!important;line-height:15px!important;text-align:center}
+body.ui317 #modal.ui-window317.compact316 #modal-body .diamond-packs315 strong{font-size:14px!important;line-height:18px!important;text-align:center}
+body.ui317 #modal.ui-window317.compact316 #modal-body .diamond-packs315 button{height:25px!important;min-height:25px!important;font-size:12px!important;padding:2px!important}

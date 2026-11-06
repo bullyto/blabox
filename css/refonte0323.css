@@ -1,0 +1,104 @@
+/* 0.32.3 — dimensions communes, sans décalages dépendant du dernier onglet visité. */
+body.ui317.layout112 #modal.ui-window317.compact316.ui-window317[data-revision323] #modal-body .shop-layout.shop030{grid-template-columns:127px minmax(0,1fr)!important;gap:8px!important}
+body.ui317.layout112 #modal.ui-window317.compact316.ui-window317[data-revision323] #modal-body .shop-categories{width:127px!important;min-width:127px!important;max-width:127px!important;height:auto!important;display:flex!important;flex-direction:column!important;gap:4px!important;padding:0!important;overflow:visible!important;align-items:stretch!important;transform:none!important;translate:none!important}
+body.ui317.layout112 #modal.ui-window317.compact316.ui-window317[data-revision323] #modal-body .shop-categories>button{width:127px!important;min-width:127px!important;max-width:127px!important;height:34px!important;min-height:34px!important;max-height:34px!important;box-sizing:border-box!important;flex-shrink:0!important;display:flex!important;align-items:center!important;justify-content:flex-start!important;gap:6px!important;padding:3px 6px!important;margin:0!important;font-size:12px!important;line-height:1.05!important;translate:none!important;transform:none!important;white-space:normal!important}
+body.ui317.layout112 #modal.ui-window317.compact316.ui-window317[data-revision323] #modal-body .shop-categories>button>img{width:22px!important;height:22px!important;max-width:22px!important;flex-shrink:0!important;object-fit:contain!important;margin:0!important}
+/* Les six offres partagent le même encadré que le dernier coffre. */
+body.ui317.layout112 #modal.ui-window317.compact316.ui-window317[data-revision323] #modal-body .diamond-visual030>.diamond-total030{inset:auto 4px 4px!important;left:4px!important;right:4px!important;bottom:4px!important;top:auto!important;width:calc(100% - 8px)!important;height:54px!important;min-height:54px!important;max-height:54px!important;box-sizing:border-box!important;transform:none!important;translate:none!important;gap:2px!important;padding:3px!important;display:flex!important;align-items:center!important;justify-content:center!important;flex-direction:column!important}
+body.ui317.layout112 #modal.ui-window317.compact316.ui-window317[data-revision323] #modal-body .diamond-visual030>.diamond-pack-image030{height:calc(100% - 62px)!important;object-fit:contain!important;max-height:none!important;inset:0 0 auto!important;width:100%!important;margin:0!important;transform:none!important;translate:none!important}
+body.ui317.layout112 #modal.ui-window317.compact316.ui-window317[data-revision323] #modal-body .diamond-total030 strong{font-size:18px!important;line-height:19px!important;margin:0!important}
+body.ui317.layout112 #modal.ui-window317.compact316.ui-window317[data-revision323] #modal-body .diamond-total030 s{font-size:10px!important;line-height:11px!important;margin:0!important;translate:none!important;transform:none!important}
+body.ui317.layout112 #modal.ui-window317.compact316.ui-window317[data-revision323] #modal-body .diamond-total030 span{font-size:9px!important;line-height:10px!important;margin:0!important}
+/* Classements : seul le palmarès défile, les récompenses restent visibles. */
+body.ui317.layout112 #modal.ui-window317.compact316.ui-window317[data-revision323][data-context321="ranks"] #modal-body{overflow:hidden!important;padding-top:3px!important;padding-bottom:3px!important}
+body.ui317.layout112 #modal.ui-window317.compact316.ui-window317[data-revision323] #modal-body .ranking323{width:658px!important;max-width:100%!important;height:100%!important;min-height:0!important;display:grid!important;grid-template-columns:minmax(0,441px) 205px!important;gap:12px!important;margin:0 auto!important;padding:0!important;box-sizing:border-box!important}
+#modal[data-revision323] .rank-column323{height:100%;min-height:0;display:grid;grid-template-rows:minmax(0,1fr) 37px;gap:6px}
+body.ui317.layout112 #modal.ui-window317.compact316.ui-window317[data-revision323] #modal-body .ranking323 .rank-scroll{min-height:0!important;height:100%!important;overflow-y:auto!important;overflow-x:hidden!important;max-height:none!important;padding:0!important}
+body.ui317.layout112 #modal.ui-window317.compact316.ui-window317[data-revision323] #modal-body .ranking323 .rank-list{display:flex!important;flex-direction:column!important;gap:5px!important;padding:0!important}
+body.ui317.layout112 #modal.ui-window317.compact316.ui-window317[data-revision323] #modal-body .ranking323 .rank-row{display:grid!important;grid-template-columns:24px 31px minmax(0,1fr) 49px 53px!important;gap:5px!important;height:50px!important;min-height:50px!important;max-height:50px!important;width:441px!important;max-width:100%!important;padding:4px 6px!important;box-sizing:border-box!important;border-radius:8px!important;align-items:center!important;margin:0!important;overflow:hidden!important}
+body.ui317.layout112 #modal.ui-window317.compact316.ui-window317[data-revision323] #modal-body .ranking323 .rank-row img{width:29px!important;height:34px!important;max-width:31px!important;max-height:34px!important;object-fit:contain!important;margin:0!important}
+#modal[data-revision323] .rank-identity323{min-width:0;display:flex;flex-direction:column;gap:3px;overflow:hidden}
+body.ui317.layout112 #modal.ui-window317.compact316.ui-window317[data-revision323] #modal-body .rank-identity323>strong{font-size:12px!important;line-height:14px!important;white-space:nowrap!important;margin:0!important;overflow:hidden!important;text-overflow:ellipsis!important}
+#modal[data-revision323] .rank-identity323>small{font-size:10px!important;line-height:12px!important;white-space:nowrap!important}
+#modal[data-revision323] .rank-score323{font-size:12px!important;white-space:nowrap;text-align:right}
+#modal[data-revision323] .ranking323 .rank-number{font-size:12px!important;min-width:0!important;width:24px!important;display:flex;justify-content:center}
+body.ui317.layout112 #modal.ui-window317.compact316.ui-window317[data-revision323] #modal-body .ranking323 .rank-row>button{height:28px!important;min-height:28px!important;width:53px!important;min-width:0!important;padding:3px!important;font-size:11px!important;line-height:1!important}
+#modal[data-revision323] .ranking323 .own-rank{display:grid!important;grid-template-columns:auto minmax(0,1fr) auto!important;gap:7px!important;align-items:center!important;font-size:11px!important;min-height:0!important;height:37px!important;padding:4px 7px!important;margin:0!important;box-sizing:border-box!important}
+#modal[data-revision323] .ranking323 .own-rank span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+body.ui317.layout112 #modal.ui-window317.compact316.ui-window317[data-revision323] #modal-body .ranking323>.rank-rewards{display:grid!important;grid-template-rows:34px repeat(4,minmax(0,1fr))!important;gap:4px!important;position:relative!important;width:205px!important;min-width:205px!important;height:100%!important;min-height:0!important;max-height:none!important;overflow:hidden!important;padding:7px!important;box-sizing:border-box!important;border-radius:10px!important}
+#modal[data-revision323] .ranking323>.rank-rewards>img{position:absolute!important;left:8px!important;top:8px!important;width:26px!important;height:27px!important;object-fit:contain!important}
+#modal[data-revision323] .ranking323>.rank-rewards>h3{font-size:13px!important;line-height:14px!important;margin:0!important;padding:0 0 0 31px!important;align-self:center}
+body.ui317.layout112 #modal.ui-window317.compact316.ui-window317[data-revision323] #modal-body .ranking323 .prize-row{min-height:0!important;max-height:none!important;height:auto!important;overflow:hidden!important;display:block!important;padding:4px!important;margin:0!important;font-size:10px!important;line-height:13px!important;border-top:1px solid #a69970!important}
+#modal[data-revision323] .ranking323 .prize-row>strong{display:block!important;font-size:11px!important;line-height:12px!important;margin:0 0 1px!important}
+#modal[data-revision323] .ranking323 .prize-row img{width:14px!important;height:14px!important;object-fit:contain!important;margin:0 2px!important;vertical-align:middle!important}
+#modal[data-revision323] .ranking-prizes323{height:100%;display:grid;grid-template-columns:repeat(2,205px);justify-content:center;gap:12px}.ranking-prizes323 .prize-row{padding:8px;font-size:11px}
+/* Recherche de clan : carte 678 × 60, adaptée si la fenêtre est plus étroite. */
+#modal[data-revision323] .clan-find323{height:100%;display:grid;grid-template-rows:34px minmax(0,1fr) auto;gap:7px;min-height:0}
+#clan-search323{display:flex;gap:7px;margin:0!important;align-items:center;justify-content:center}
+#clan-search323 input{height:32px!important;min-height:32px!important;box-sizing:border-box!important;width:min(420px,70%)!important;padding:5px 9px!important;font-size:13px!important;border:1px solid #ad9f77;border-radius:7px}
+#clan-search323>button{height:32px!important;min-height:32px!important;font-size:12px!important;padding:4px 15px!important}
+#modal[data-revision323] .clan-find323 .clan-search-list{min-height:0!important;overflow-y:auto!important;overflow-x:hidden!important;display:flex!important;flex-direction:column!important;gap:6px!important;align-items:center!important}
+body.ui317.layout112 #modal.ui-window317.compact316.ui-window317[data-revision323] #modal-body .clan-find323 .clan-search-row{display:grid!important;grid-template-columns:39px minmax(0,1fr) 59px 91px!important;gap:8px!important;align-items:center!important;width:678px!important;max-width:100%!important;height:60px!important;min-height:60px!important;max-height:60px!important;padding:5px 8px!important;margin:0!important;box-sizing:border-box!important;border-radius:9px!important;flex-shrink:0!important}
+#modal[data-revision323] .clan-find323 .clan-search-row>img,#modal[data-revision323] .clan-find323 .clan-search-row>.emblem030{width:38px!important;height:43px!important;max-height:43px!important;min-width:0!important;object-fit:contain!important;margin:0!important}
+#modal[data-revision323] .clan-search-row>div{min-width:0;overflow:hidden}
+#modal[data-revision323] .clan-find323 .clan-search-row h3{font-size:14px!important;line-height:16px!important;margin:0 0 3px!important;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#modal[data-revision323] .clan-find323 .clan-search-row span{font-size:11px!important;line-height:13px!important}
+#modal[data-revision323] .clan-find323 .clan-search-row>button{height:31px!important;min-height:31px!important;width:100%!important;min-width:0!important;font-size:11px!important;padding:3px!important}
+#modal[data-revision323] .create-clan323{height:28px!important;min-height:28px!important;font-size:11px!important;width:180px!important;justify-self:center}
+/* Courrier : invitation compacte avec action à droite, messages espacés. */
+#modal[data-revision323] .clan-mail323{height:60px!important;min-height:60px!important;width:97%!important;margin:2px auto 8px!important;display:flex!important;align-items:center!important;justify-content:space-between!important;gap:12px!important;padding:8px 12px!important;box-sizing:border-box!important}
+#modal[data-revision323] .clan-mail323>h3{font-size:15px!important;line-height:18px!important;margin:0!important;flex:0 0 auto}
+#modal[data-revision323] .clan-mail323>button{height:31px!important;min-height:31px!important;max-width:55%!important;font-size:12px!important;margin:0!important;padding:4px 10px!important}
+#modal[data-revision323] .mail-list030{display:flex!important;flex-direction:column!important;gap:6px!important;margin:5px 0 0!important}
+#modal[data-revision323] .mail-row030{height:58px!important;min-height:58px!important;display:grid!important;grid-template-columns:32px minmax(0,1fr) 85px!important;gap:9px!important;padding:5px 9px!important;box-sizing:border-box!important;align-items:center!important}
+#modal[data-revision323] .mail-row030>img{width:30px!important;height:34px!important;object-fit:contain!important;margin:0!important}
+#modal[data-revision323] .mail-row030>span{display:flex;flex-direction:column;gap:3px;min-width:0;overflow:hidden}
+#modal[data-revision323] .mail-row030>span>b{font-size:13px!important;line-height:15px!important;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#modal[data-revision323] .mail-row030 small{font-size:11px!important;line-height:13px!important;white-space:nowrap!important;overflow:hidden!important;text-overflow:ellipsis!important}
+#modal[data-revision323] .mail-row030>strong{font-size:11px!important;white-space:nowrap!important;text-align:right!important}
+/* Menu d'actions ancré à la ligne du membre. */
+#modal .member-menu323{position:absolute!important;display:flex!important;flex-direction:column!important;gap:2px!important;padding:5px!important;max-height:calc(100% - 55px)!important;overflow:auto!important;background:#f8edd2!important;border:2px solid #b59b60!important;border-radius:8px!important;box-shadow:0 5px 18px #0d28394d!important;z-index:100!important;transform:none!important;box-sizing:border-box!important}
+#modal .member-menu323>button{width:100%!important;min-height:29px!important;height:29px!important;max-height:29px!important;font-size:11px!important;line-height:1.1!important;padding:4px 8px!important;text-align:left!important;border-radius:5px!important;justify-content:flex-start!important}
+/**** Accélérateurs : un seul choix, un récapitulatif, une action. ****/
+body.ui317 .speed-window323 .confirm-sheet0291{width:min(640px,calc(var(--ui-width317) - 30px))!important;max-height:calc(var(--ui-height317) - 24px)!important;height:auto!important;overflow:hidden!important}
+body.ui317 .speed-window323 .confirm-actions0291{display:none!important}
+.speed-dialog323{display:flex;flex-direction:column;gap:10px;min-height:0;padding:3px;box-sizing:border-box}
+.speed-dialog323>h3{font-size:17px;line-height:20px;margin:0;color:#285664;text-align:center}
+.speed-summary323{display:grid;grid-template-columns:1fr 25px 1fr;align-items:center;gap:9px;padding:8px;background:#e8e0c2;border:1px solid #c3b17e;border-radius:8px;text-align:center}
+.speed-summary323>div{display:flex;flex-direction:column;gap:3px}.speed-summary323 small{font-size:11px}.speed-summary323 b{font-size:17px}
+.speed-stock323{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:7px}
+.speed-stock323>article{background:#fff6db;border:1px solid #bcaa7c;border-radius:8px;display:flex;flex-direction:column;align-items:center;gap:5px;padding:6px;min-width:0}
+body.ui317 .speed-stock323>article>img{width:39px!important;height:40px!important;max-height:40px!important;object-fit:contain!important;margin:0!important}
+.speed-stock323>article>b{font-size:12px;line-height:15px}.speed-stock323 small{font-size:10px;line-height:12px}
+.speed-stock323>article>div{display:grid;grid-template-columns:25px minmax(25px,1fr) 25px;width:100%;gap:3px;align-items:center}
+body.ui317 .speed-stock323 button{width:25px!important;height:26px!important;min-height:26px!important;min-width:25px!important;padding:0!important;font-size:15px!important}
+body.ui317 .speed-stock323 input{width:100%!important;min-width:0!important;height:26px!important;box-sizing:border-box!important;padding:3px!important;font-size:12px!important;text-align:center!important}
+.speed-dialog323>footer{display:grid;grid-template-columns:1fr 1fr 1.3fr;gap:7px}
+body.ui317 .speed-dialog323>footer>button{font-size:12px!important;min-height:32px!important;height:32px!important;display:flex!important;align-items:center!important;justify-content:center!important;gap:4px!important;padding:4px!important;min-width:0!important}
+body.ui317 .speed-dialog323>footer img{width:21px!important;height:21px!important;object-fit:contain!important;margin:0!important}
+.speed-excess323{font-size:11px;color:#956633;min-height:12px;text-align:center}
+.clan-tests323{padding:12px;background:#f5ebd2;border:1px solid #bfa97a;border-radius:9px;display:grid;gap:9px;max-width:100%;box-sizing:border-box}
+.clan-tests323 h3{font-size:16px!important;margin:0!important}.clan-tests323>label{display:flex;gap:8px;align-items:center;font-size:12px}.clan-tests323>button{font-size:12px!important;min-height:31px!important;padding:5px 8px!important}
+@media(max-height:390px){.speed-dialog323{gap:6px}.speed-summary323{padding:5px}.speed-stock323>article{padding:4px;gap:3px}body.ui317 .speed-stock323>article>img{height:29px!important}.speed-dialog323>h3{font-size:14px;line-height:16px}}
+body.ui317.layout112 #modal.ui-window317.compact316.ui-window317[data-revision323] #modal-body .ranking323{width:668px!important;grid-template-columns:minmax(0,451px) 205px!important}
+@media(max-width:700px){body.ui317.layout112 #modal.ui-window317.compact316.ui-window317[data-revision323] #modal-body .ranking323 .rank-row{width:100%!important}}
+body.ui317:not(.chat-expanded) #chat{width:27.7152415537%!important;height:48.2768296829%!important;max-width:calc(100% - 30px)!important;bottom:calc(170px + 5.7793150257%)!important}
+body.ui317:not(.chat-expanded) #chat .chat-header{margin-top:2px!important}
+body.ui317.layout112 #modal.ui-window317.compact316.ui-window317[data-revision323][data-shop-category323="resources"] #modal-body .shop-grid030{grid-template-rows:none!important;grid-auto-rows:185px!important;height:auto!important;min-height:0!important;align-content:start!important}
+body.ui317.layout112 #modal.ui-window317.compact316.ui-window317[data-revision323][data-shop-category323="resources"] #modal-body .shop-grid030>article{height:185px!important;min-height:185px!important;max-height:185px!important;box-sizing:border-box!important}
+body.ui317.layout112 #modal.ui-window317.compact316.ui-window317[data-revision323] #modal-body .inbox-item{height:60px!important;min-height:60px!important;max-height:60px!important;display:grid!important;grid-template-columns:33px minmax(0,1fr) 62px!important;padding:6px 10px!important;gap:9px!important;margin:6px 0!important;box-sizing:border-box!important;align-items:center!important}
+#modal[data-revision323] .inbox-item>img{height:32px!important;width:29px!important;object-fit:contain!important;margin:0!important}
+#modal[data-revision323] .inbox-item h3{font-size:13px!important;line-height:15px!important;margin:0 0 3px!important}
+#modal[data-revision323] .inbox-item small{font-size:10px!important;line-height:12px!important}
+#modal[data-revision323] .inbox-item>button{height:31px!important;min-height:31px!important;font-size:11px!important;padding:4px!important}
+body.ui317.layout112 #modal.ui-window317.compact316.ui-window317[data-revision323] #modal-body .ranking323 .prize-row{padding:3px!important;font-size:10px!important;line-height:11px!important}
+#modal[data-revision323] .ranking323 .prize-row>strong{font-size:10px!important;line-height:11px!important;margin-bottom:1px!important}
+#modal[data-revision323] .ranking323 .prize-row img{width:12px!important;height:12px!important}
+body.ui317 .speed-stock323 input{background:#fff5dc!important;color:#254c57!important;border:1px solid #b7a471!important;border-radius:5px!important}
+body.ui317 .speed-window323 .confirm-content0302{padding:6px!important}
+body.ui317.layout112 #modal.ui-window317.compact316.ui-window317[data-revision323] #modal-body .ranking323>.rank-rewards{max-height:320px!important;align-self:start!important}
+body.ui317.layout112 #modal.ui-window317.compact316.ui-window317[data-revision323] #modal-body .ranking-prizes323>.rank-rewards{display:grid!important;grid-template-rows:34px repeat(4,minmax(0,1fr))!important;gap:4px!important;width:205px!important;height:100%!important;max-height:320px!important;min-height:0!important;box-sizing:border-box!important;padding:7px!important;overflow:hidden!important}
+#modal[data-revision323] .ranking-prizes323 h3{font-size:13px!important;line-height:15px!important;margin:0!important;align-self:center}
+#modal[data-revision323] .ranking-prizes323 .prize-row{padding:3px!important;font-size:10px!important;line-height:11px!important;margin:0!important;min-height:0!important;overflow:hidden!important}
+#modal[data-revision323] .ranking-prizes323 .prize-row>strong{display:block!important;font-size:10px!important;line-height:11px!important;margin-bottom:1px!important}
+#modal[data-revision323] .ranking-prizes323 .prize-row img{width:12px!important;height:12px!important;object-fit:contain!important}

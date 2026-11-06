@@ -1,0 +1,83 @@
+{
+  "format": "blabox-window-layouts",
+  "schemaVersion": 1,
+  "baseVersion": "0.32.7",
+  "editorVersion": "1.4.0",
+  "layoutRevision": "reference-github-2026-11-06",
+  "builtInLayouts": [
+    "game/css/refonte112.css",
+    "game/css/refonte0322.css",
+    "game/css/refonte0323.css",
+    "game/css/correctifs0327.css"
+  ],
+  "exportedAt": "2026-11-06T16:35:33.757Z",
+  "coordinateSystem": "parent-relative; sizes normalized; CSS translate; original layout retained",
+  "viewports": {
+    "pc": [
+      1600,
+      900
+    ],
+    "mobile": [
+      740,
+      360
+    ]
+  },
+  "layouts": {
+    "pc": {},
+    "mobile": {
+      "map:campaign": {
+        "label": "Campagne",
+        "elements": {
+          "0:div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)": {
+            "x": -0.001495190407633243,
+            "y": 0
+          }
+        }
+      },
+      "window:alchemy31////potions//": {
+        "label": "Alchimie",
+        "elements": {
+          "0:div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>button:nth-of-type(2)": {
+            "x": 1.3103448486328124,
+            "y": 0.11295354962733438,
+            "w": 0.9517246500651042,
+            "h": 0.23567740372785434,
+            "font": 11.224136352539062
+          },
+          "0:div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>button:nth-of-type(1)": {
+            "x": -0.006896565755208334,
+            "y": 0.14661966158649115
+          },
+          "0:div:nth-of-type(2)>div:nth-of-type(2)>button:nth-of-type(2)": {
+            "x": -0.012028849402139353,
+            "y": 0.013792928059895833
+          },
+          "0:div:nth-of-type(2)>div:nth-of-type(2)>button:nth-of-type(3)": {
+            "x": 0.003007223439771076,
+            "y": 4.069010416662966e-7
+          },
+          "0:div:nth-of-type(2)>div:nth-of-type(2)>button:nth-of-type(4)": {
+            "x": -0.007518058599427689,
+            "y": -1.734723475976807e-18
+          },
+          "0:div:nth-of-type(2)>div:nth-of-type(2)>button:nth-of-type(5)": {
+            "x": 0.007518058599427689,
+            "y": 0
+          },
+          "0:div:nth-of-type(2)>div:nth-of-type(2)>button:nth-of-type(6)": {
+            "x": -0.0030072234397710757,
+            "y": 0
+          },
+          "0:div:nth-of-type(2)>div:nth-of-type(2)": {
+            "x": -0.004395828030940156,
+            "y": 0.08444753633875425
+          },
+          "0:div:nth-of-type(2)>h3:nth-of-type(1)": {
+            "x": -0.0014652760103133853,
+            "y": 0.09148490023450787
+          }
+        }
+      }
+    }
+  }
+}

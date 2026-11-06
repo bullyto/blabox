@@ -1,0 +1,5 @@
+/* Assistance locale : module commun aux consoles Créateur et Administration. */
+(()=>{'use strict';const originalRead=DEMOOPS0291.read,originalCommand=DEMOOPS0291.command;
+DEMOOPS0291.read=function(){let db=originalRead();db.supportTickets0304??=[];db.securityAlerts0304??=[];return db};
+DEMOOPS0291.command=function(role,kind,p={}){if(kind!=='support-reply0304')return originalCommand(role,kind,p);let db=DEMOOPS0291.read();if(role!=='creator'&&(role!=='admin'||!db.admins.some(a=>a.id==='player-b'&&a.active)))throw Error('Accès administrateur actif requis.');let ticket=db.supportTickets0304.find(t=>t.id===p.id),text=String(p.text||'').trim();if(!ticket)throw Error('Demande introuvable.');if(!text||text.length>3000)throw Error('La réponse doit contenir entre 1 et 3 000 caractères.');let before=structuredClone(ticket),at=Date.now(),id=crypto.randomUUID();ticket.replies??=[];ticket.replies.push({id,text,at,role});ticket.status='answered';db.commands??=[];db.commands.push({id,kind,playerId:ticket.playerId,text,at});DEMOOPS0291.log(db,role,kind,ticket.id,before,ticket);DEMOOPS0291.write(db);return db};
+})();
