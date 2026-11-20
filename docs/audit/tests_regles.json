@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "checks": 29,
+  "modules_executed": [
+    "js/system/asset-paths.js",
+    "js/rules/shared-rules.js",
+    "js/rules/clan-economy.js",
+    "js/data/emblems.js",
+    "js/admin/operations.js",
+    "js/admin/permissions.js",
+    "js/data/troop-animations.js",
+    "js/rules/engine.js",
+    "js/rules/construction-balance.js",
+    "js/data/player-catalog.js",
+    "js/admin/bot-lab.js",
+    "js/rules/offer-eligibility.js",
+    "js/rules/offer-pricing.js",
+    "js/rules/loot-economy.js",
+    "js/rules/hero-progression.js",
+    "js/rules/research.js",
+    "js/rules/army-capacity.js",
+    "js/rules/recovery.js",
+    "js/rules/progression-limits.js",
+    "js/rules/events-and-drops.js"
+  ],
+  "promotions": 14,
+  "limitations": "Modules et fonctions exécutés sous Node ; interface, console navigateur, rendu et interactions non certifiés."
+}

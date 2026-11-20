@@ -1,0 +1,50 @@
+{
+  "errors": [],
+  "warnings": [
+    {
+      "class": "archer",
+      "missing_animation_levels": [
+        18,
+        19,
+        20
+      ],
+      "note": "Absence dans la base fournie ; aucune restauration."
+    }
+  ],
+  "files": 1559,
+  "images_decoded": 1429,
+  "dynamic_aliases": 322,
+  "frames_checked": 2547,
+  "building_families": {
+    "assets/batiments/caserne_heros": 20,
+    "assets/batiments/centre_bataille": 20,
+    "assets/batiments/mana": 20,
+    "assets/batiments/atelier_monstres": 20,
+    "assets/batiments/reservoir": 20,
+    "assets/batiments/academie": 20,
+    "assets/batiments/garnison": 20,
+    "assets/batiments/garde_monstres": 20,
+    "assets/batiments/barricade": 20,
+    "assets/batiments/batiment_alliance": 20,
+    "assets/batiments/mine": 20,
+    "assets/batiments/forge": 20,
+    "assets/batiments/extracteur": 20,
+    "assets/batiments/reserve": 20,
+    "assets/batiments/core": 20,
+    "assets/batiments/defenses/baliste": 20,
+    "assets/batiments/defenses/infernale": 20,
+    "assets/batiments/defenses/soin": 20,
+    "assets/batiments/defenses/obelisque": 20,
+    "assets/batiments/defenses/mortier": 20,
+    "assets/batiments/defenses/gardien": 20,
+    "assets/batiments/defenses/archers": 20,
+    "assets/batiments/defenses/arbalete": 20,
+    "assets/batiments/defenses/glace": 20,
+    "assets/batiments/defenses/electricite": 20,
+    "assets/batiments/defenses/poison": 20,
+    "assets/batiments/defenses/antimagie": 20,
+    "assets/batiments/defenses/necropole": 20
+  },
+  "duplicate_groups": 17,
+  "chromium": "Voir le rapport de validation Chromium livré séparément. Ce script contrôle uniquement les fichiers et les règles."
+}
